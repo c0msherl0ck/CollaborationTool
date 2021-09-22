@@ -13,4 +13,4 @@ message.py -i "~AppData\Roaming\Microsoft\Teams\IndexedDB\https_teams.live.com_0
 
 # License
 
-Copyright © 2021. All Rights Reserved.
+Copyright © 2021. c0msherl0ck. All Rights Reserved.
