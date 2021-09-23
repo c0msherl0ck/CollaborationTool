@@ -7,9 +7,11 @@ Journal of The Korea Institute of Information Security & Cryptology<br>
 # Usage
 
 message.py -i {IndexedDB_FilePath} -m {slack, teams}<br>
+'''
 message.py -i "~AppData\Roaming\Slack\IndexedDB\https_app.slack.com_0.indexeddb.blob\1\00\3c" -m slack<br>
 message.py -i "~AppData\Roaming\Microsoft\Teams\IndexedDB\https_teams.live.com_0.indexeddb.leveldb\000004.log" -m teams<br>
 message.py -i "~AppData\Roaming\Microsoft\Teams\IndexedDB\https_teams.live.com_0.indexeddb.leveldb\000005.ldb" -m teams<br>
+'''
 
 # License
 
