@@ -58,7 +58,7 @@ def parse_slack_team_info(hexString, wr):
     for i in range(0, len(team_attribute_hex_array)):
         team_attribute_hex_array[i] = '22\\w\\w' + team_attribute_hex_array[i]
 
-    # 헥가값으로 이루어진 패턴을 만든다.
+    # 헥사값으로 이루어진 패턴을 만든다.
     # 단, 데이터 길이의 최대값을 정해둔다.
     team_pattern_hex = ''
     for i in range(0, len(team_attribute_hex_array)):
@@ -143,7 +143,7 @@ def parse_slack_member_info(hexString, wr):
     for i in range(0, len(member_attribute_hex_array)):
         member_attribute_hex_array[i] = '22\\w\\w' + member_attribute_hex_array[i]
 
-    # 헥가값으로 이루어진 패턴을 만든다.
+    # 헥사값으로 이루어진 패턴을 만든다.
     # 단, 데이터 길이의 최대값을 정해둔다.
     member_pattern_hex = ''
     for i in range(0, len(member_attribute_hex_array)):
@@ -234,7 +234,7 @@ def parse_slack_channel_info(hexString, wr):
     for i in range(0, len(channel_attribute_hex_array)):
         channel_attribute_hex_array[i] = '22\\w\\w' + channel_attribute_hex_array[i]
 
-    # 헥가값으로 이루어진 패턴을 만든다.
+    # 헥사값으로 이루어진 패턴을 만든다.
     # 단, 데이터의 최대값을 정해둔다.
     channel_pattern_hex = ''
     for i in range(0, len(channel_attribute_hex_array)):
@@ -314,7 +314,7 @@ def parse_slack_files(hexString, wr):
     for i in range(0, len(file_attribute_hex_array)):
         file_attribute_hex_array[i] = '22\\w\\w' + file_attribute_hex_array[i]
 
-    # 헥가값으로 이루어진 패턴을 만든다.
+    # 헥사값으로 이루어진 패턴을 만든다.
     # 단, 데이터 길이의 최대값을 정해둔다.
     file_pattern_hex = ''
     for i in range(0, len(file_attribute_hex_array)):
@@ -409,7 +409,7 @@ def parse_slack_messages(hexString, wr):
     for i in range(0, len(message_attribute_hex_array)):
         message_attribute_hex_array[i] = '22\\w\\w' + message_attribute_hex_array[i]
 
-    # 헥가값으로 이루어진 패턴을 만든다.
+    # 헥사값으로 이루어진 패턴을 만든다.
     message_pattern_hex = ''
     for i in range(0, len(message_attribute_hex_array)):
         attr_hex = message_attribute_hex_array[i]
@@ -535,7 +535,7 @@ def process_teams_attachment(bStr):
     for i in range(0,len(attachment_attribute_hex_array)):
         attachment_attribute_hex_array[i] = '22\\w\\w'+attachment_attribute_hex_array[i]
 
-    # 헥가값으로 이루어진 패턴을 만든다.
+    # 헥사값으로 이루어진 패턴을 만든다.
     attachment_pattern_hex = ''
     for i in range(0, len(attachment_attribute_hex_array)):
         attr_hex = attachment_attribute_hex_array[i]
@@ -693,7 +693,7 @@ def extract_data_from_teams(fileName):
         for i in range(0,len(message_attribute_hex_array)):
             message_attribute_hex_array[i] = '22\\w\\w'+message_attribute_hex_array[i]
 
-        # 헥가값으로 이루어진 패턴을 만든다.
+        # 헥사값으로 이루어진 패턴을 만든다.
         message_pattern_hex = ''
         for i in range(0,len(message_attribute_hex_array)):
             attr_hex = message_attribute_hex_array[i]
