@@ -1,7 +1,7 @@
 # The Message Carving Tool for Slack and Microsoft Teams
 
 Developed as part of the Journal of the Korea Institute of Information Security & Cryptology,<br>
-"A Study on Message Acquisition from Electron-based Collaboration Tool: Focused on Jandi, Slack, and Microsoft Teams"
+"A Study on Message Acquisition from Electron App: Focused on Collaboration Tools such as Jandi, Slack, and Microsoft Teams"
 
 
 # Usage
